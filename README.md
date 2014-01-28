@@ -24,25 +24,29 @@ To use, follow the getting started below.  Very simple!
 
 	heroku create
 
-5) Add MongoLabs Starter MongoDB add on to your heroku app
+5) Rename the app to what you want
+	
+	heroku apps:rename newname
+
+6) Add MongoLabs Starter MongoDB add on to your heroku app
 
 	heroku addons:add mongolab:starter
 
-6) Get Heroku MongoLab connection string into .env file
+7) Get Heroku MongoLab connection string into .env file
 
 	heroku config --shell | grep MONGOLAB_URI >> .env
 
 Your connection string to MongoDB will be in your **.env** file now.
 
-7) Start server with **foreman start**.
+8) Start server with **foreman start**.
 
 	foreman start
 
 Foreman reads your .env file, populates the process.env object for use in your app.
 
-8) Open web browser to <http://localhost:5000> to view the web app.
+9) Open web browser to <http://localhost:5000> to view the web app.
 
-9) Stop the web server press Command+C in the Terminal window.
+10) Stop the web server press Command+C in the Terminal window.
 
 ### Auto restart development server
 

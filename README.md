@@ -1,10 +1,8 @@
 ## Node.js - Express - EJS - Bootstrap Template
 
-Template for ExpressJS
+This is a template application using Node.js, Express, EJS, Bootstrap and Nodemon.  Almost all of this comes from John Schimmel and the ITP Dynamic Web Development class.  I have simply added a few thing and made it my own so I can develop quickly.  
 
-* Getting Started
-* Hogan-Express template engine (w/ layouts)
-* MongoDB (coming soon)
+To use, follow the getting started below.  Very simple!
 
 
 ### Getting started w/ local development server
